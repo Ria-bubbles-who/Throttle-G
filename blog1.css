@@ -1,0 +1,124 @@
+.ultimate-guide {
+    min-height: 100vh;
+    background: #000;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: #E1306C;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 1.6rem;
+    color: #aaa;
+    margin-bottom: 100px;
+}
+
+.sections {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    gap: 80px;
+}
+
+.guide {
+    background: #111;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #222;
+    transition: all 0.4s;
+}
+
+.guide:hover {
+    border-color: #E1306C;
+    transform: translateY(-5px);
+}
+
+.guide img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.section-content {
+    padding: 40px;
+    text-align: left;
+}
+
+.section-content h2 {
+    font-size: 2.4rem;
+    color: #E1306C;
+    margin-bottom: 25px;
+}
+
+.section-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-content li {
+    font-size: 1.25rem;
+    padding: 12px 0;
+    border-bottom: 1px solid #333;
+    color: #ddd;
+}
+
+.read-more {
+    color: #E1306C;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px 12px !important;
+  }
+  
+  h1 {
+    font-size: 2.2rem !important;
+  }
+  
+  h2 {
+    font-size: 1.6rem !important;
+  }
+  
+  p, li {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+  }
+  
+  .posts-grid, .fav-grid, .sections {
+    flex-direction: column !important;
+    display: flex !important;
+    gap: 24px !important;
+  }
+  
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  .card, .mission-box, .post-card, .fav-card, .guide {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  
+  .social-links a {
+    font-size: 28px !important;
+    margin: 0 12px !important;
+  }
+}

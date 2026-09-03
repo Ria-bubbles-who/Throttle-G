@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(145deg,
+        #000000,
+        #760f0f,
+        #70140f,
+        #000000);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 38px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.mission-box {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    transition: 0.3s ease;
+}
+
+.mission-box:hover {
+    box-shadow: 0 0 18px rgba(0,0,0,0.3);
+    transition: 0.4s ease;
+}
+
+.mission-box p {
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.back-home {
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 12px 22px;
+    font-size: 18px;
+    border: 2px solid red;
+    border-radius: 35px;
+    transition: 0.3s;
+}
+
+.back-home:hover {
+    background: red;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px 12px !important;
+  }
+  
+  h1 {
+    font-size: 2.2rem !important;
+  }
+  
+  h2 {
+    font-size: 1.6rem !important;
+  }
+  
+  p, li {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+  }
+  
+  .posts-grid, .fav-grid, .sections {
+    flex-direction: column !important;
+    display: flex !important;
+    gap: 24px !important;
+  }
+  
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  .card, .mission-box, .post-card, .fav-card, .guide {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  
+  .social-links a {
+    font-size: 28px !important;
+    margin: 0 12px !important;
+  }
+}

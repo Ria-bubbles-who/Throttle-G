@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #7c0a0a; 
+    color: #e7e7e7;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-section {
+    font-size: 35px;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 50px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.follow-section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #f0f0f0;
+}
+
+.social-links {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.social-links a {
+    color: #000000;
+    font-size: 60px;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #de006f;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px 12px !important;
+  }
+  
+  h1 {
+    font-size: 2.2rem !important;
+  }
+  
+  h2 {
+    font-size: 1.6rem !important;
+  }
+  
+  p, li {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+  }
+  
+  .posts-grid, .fav-grid, .sections {
+    flex-direction: column !important;
+    display: flex !important;
+    gap: 24px !important;
+  }
+  
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  .card, .mission-box, .post-card, .fav-card, .guide {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  
+  .social-links a {
+    font-size: 28px !important;
+    margin: 0 12px !important;
+  }
+}

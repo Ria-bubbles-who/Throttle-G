@@ -1,0 +1,100 @@
+html, body {
+    height: auto;
+    color: #f0f0f0de
+}
+
+
+body {
+    background: linear-gradient(145deg, 
+    #6b0808,
+    #000000, 
+    #000000, 
+    #a60909);
+    display: inline-block;
+    width: 90%;
+    min-height: 100vh
+}
+
+h1 {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+    font-size: 29px;
+}
+
+ul{
+    box-sizing: border-box;
+    border: 2px solid #878787c1;
+    border-radius: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: aliceblue;
+    background-color: #000000;
+    border:2px solid #ff0000b5;
+    margin-bottom: 0;
+}
+
+a:hover {
+    background-color:rgb(232, 0, 0) ;
+}
+
+.explore {
+    font-size:20px; 
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px 12px !important;
+  }
+  
+  h1 {
+    font-size: 2.2rem !important;
+  }
+  
+  h2 {
+    font-size: 1.6rem !important;
+  }
+  
+  p, li {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+  }
+  
+  .posts-grid, .fav-grid, .sections {
+    flex-direction: column !important;
+    display: flex !important;
+    gap: 24px !important;
+  }
+  
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  .card, .mission-box, .post-card, .fav-card, .guide {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  
+  .social-links a {
+    font-size: 28px !important;
+    margin: 0 12px !important;
+  }
+}
